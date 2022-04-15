@@ -1,0 +1,40 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+header {
+  height: 100vh;
+}
+#imagen--fondo {
+  opacity: 0.4;
+  height: 100vh;
+  filter: contrast(175%);
+}
+#comprar {
+  color: #008000;
+}
+#texto--imagen {
+  bottom: 225px;
+  right: 150px;
+}
+#charla {
+    color: black;
+    text-decoration-style: dotted
+}
+#btn--enviar{
+  background-color: #96c93e;
+}
+#footer{
+  background-color: #1b3848;
+}
+.noseleccionar {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
