@@ -6,10 +6,8 @@ html {
 header {
   height: 100vh;
 }
-#imagen--fondo {
-  opacity: 0.4;
-  height: 100vh;
-  filter: contrast(175%);
+footer{
+  background-color: #1b3848;
 }
 #comprar {
   color: #008000;
@@ -19,14 +17,16 @@ header {
   right: 150px;
 }
 #charla {
-    color: black;
-    text-decoration-style: dotted
+  color: black;
+  text-decoration-style: dotted
 }
-#btn--enviar{
+.btn--enviar{
   background-color: #96c93e;
 }
-#footer{
-  background-color: #1b3848;
+.imagen--fondo {
+  opacity: 0.4;
+  height: 100vh;
+  filter: contrast(175%);
 }
 .noseleccionar {
     -webkit-touch-callout: none; /* iOS Safari */
@@ -37,4 +37,11 @@ header {
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
   }
+
+  @media (max-width: 600px) {
+    #texto--imagen {
+      bottom: 0;
+    }
+  }
+
 
